@@ -1,0 +1,125 @@
+/* 1. Ge alla element på sidan en 'box-sizing: border-box;' */
+
+* {
+    box-sizing: border-box;
+}
+
+/* 2. <body> elementet ska ha bakgrundsfärg #bdc3c7*/
+
+body { 
+    background-color: #bdc3c7;
+}
+
+/* 3. Rubriken <h1> ska ha färg #9b59b6*/
+
+h1 {
+    color: #9b59b6;
+}
+
+/* 4. Alla underubriker <h2> ska ha en orange färg */
+
+h2 {
+    color: orange;
+}
+
+/* 5. Alla <li> element i en ul-lista ska ha blå färg (välj valfri hexadecimal färg)*/
+
+ul li {
+    color: blue;
+}
+
+
+/* 6. Alla p ska ha en gul bakgrundsfärg*/
+p {
+    background-color: yellow;
+}
+
+
+/* 7. Alla inmatningsfält (input) ska ha en border på '3px solid red'*/
+
+input {
+    border: 3px solid red;
+}
+
+
+/* 8. Alla element med class 'hello' ska ha en vit bakgrund*/
+
+.hello {
+    background-color: #ffffff;
+}
+
+/* 9. Elementet med id 'special' ska ha en border på '2px solid blue'*/
+
+#special {
+    border: 2px solid blue;
+}
+
+
+/* 10. Alla <p> och <div> ska ha färgen svart #000*/
+div {
+    background-color: #000;
+}
+
+p {
+    color: #000;
+}
+
+
+/* 11. Alla  <p> som ligger nästladee (inuti) en div ska ha font-size: 22px*/
+
+div p {
+    font-size: 22px;
+}
+
+/* 12. Ge alla em i den fjärde div-en med class="fourth" en 'text-docration: underline;*/
+
+.fourth em {
+    text-decoration: underline;
+}
+
+/* 13. Gör så att <h1> elementet får färgen blå när musen är över elementet (:hover) */
+
+h1:hover {
+    color: blue;
+}
+
+/* 14. Gör så att alla besökta <a> element får färgen grå (:visited) */
+
+a:visited {
+    color: grey;
+} 
+
+/* 15. Alla inmatningsfält (input) av typ 'text' ska ha grå bakgrund */
+
+input[type="text"] {
+    background-color: grey;
+}
+
+
+/* 16. Alla checkboxrutor som är 'checked' ska får en vänstermarginal på 50px (margin-left: 50px) */
+
+input[type="checkbox"]:checked {
+    margin-left: 50px;
+}
+
+.container > p {
+    font-weight: 700;
+}
+
+ul li:first-child {
+    font-size: 20px;
+    color: #93f;
+} 
+
+.third h2 + p {
+    color: blue;
+}
+
+.third h2 ~ p {
+    color: #fff;
+}
+
+.container > p:nth-of-type(2) {
+    font-size: 32px;
+    color: red;
+}
